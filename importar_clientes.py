@@ -9,7 +9,7 @@ from clientes.models import Cliente
 from decimal import Decimal, InvalidOperation
 
 # Leer archivo
-df = pd.read_excel('Prueba_1_importar.xlsx')
+df = pd.read_excel('Prueba1.xlsx')
 
 def limpiar_decimal(valor):
     try:
